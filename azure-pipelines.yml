@@ -8,7 +8,7 @@ variables:
 
     azureServiceConnection: 'az400mslearn001'
     resourceGroupName: 'Bicep'
-    location: 'uksouth'
+    location: 'eastus'
     templateFile: 'main.bicep'
 pool:
     vmImage: $(vmImageName)
